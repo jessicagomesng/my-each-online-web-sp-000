@@ -5,6 +5,7 @@ def my_each(collection) # put argument(s) here
     yield(collection[i]]
     i = i + 1
   end
+  collection 
 end
 
 my_each(collection) do |element|
