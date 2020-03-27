@@ -4,5 +4,7 @@ def my_each(array) # put argument(s) here
   while x < array.length
     x
     yield
-  end 
+  end
 end
+
+my_each(array) do |element|
